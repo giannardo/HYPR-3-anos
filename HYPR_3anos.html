@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>hypr_beats_of_the_city_confirmacao</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+    #slideshow {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+    }
+    
+    #slideshow img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+    
+    #slideshow img.active {
+        opacity: 1;
+    }
+</style>
+</head>
+<body>
+<div id="slideshow">
+	<img class="active" src="caminho/para/imagem-1.jpg" width="600" height="400" alt="">
+	<img src="caminho/para/imagem-2.jpg" width="600" height="400" alt="">
+	<img src="caminho/para/imagem-3.jpg" width="600" height="400" alt="">
+</div>
+
+<script>
+    var slides = document.querySelectorAll('#slideshow img');
+    var currentSlide = 0;
+    var slideInterval = setInterval(nextSlide, 3000);
+    
+    function nextSlide() {
+        slides[currentSlide].className = '';
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].className = 'active';
+    }
+</script>
+</body>
+</html>
