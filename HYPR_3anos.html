@@ -2,45 +2,31 @@
 <head>
 <title>hypr_beats_of_the_city_confirmacao</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style>
-    #slideshow {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        background-color: black;
-    }
-    
-    #slideshow img {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        opacity: 0;
-        transition: opacity 1s ease-in-out;
-    }
-    
-    #slideshow img.active {
-        opacity: 1;
-    }
-</style>
 </head>
-<body>
-<div id="slideshow">
-	<img class="active" src="caminho/para/imagem-1.jpg" width="600" height="400" alt="">
-	<img src="caminho/para/imagem-2.jpg" width="600" height="400" alt="">
-	<img src="caminho/para/imagem-3.jpg" width="600" height="400" alt="">
-</div>
-
-<script>
-    var slides = document.querySelectorAll('#slideshow img');
-    var currentSlide = 0;
-    var slideInterval = setInterval(nextSlide, 3000);
-    
-    function nextSlide() {
-        slides[currentSlide].className = '';
-        currentSlide = (currentSlide + 1) % slides.length;
-        slides[currentSlide].className = 'active';
-    }
-</script>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<!-- Save for Web Slices (hypr_beats_of_the_city_confirmacao.psd) -->
+<table id="Tabela_01" width="600" height="2904" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+			<img src="hypr_beats_of_the_city_confirmacao_01.png" width="600" height="883" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="hypr_beats_of_the_city_confirmacao_02.png" width="600" height="1204" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="hypr_beats_of_the_city_confirmacao_03.png" width="600" height="514" alt=""></td>
+	</tr>
+	<tr>
+		<td>
+			<img src="hypr_beats_of_the_city_confirmacao_04.png" width="600" height="303" alt=""></td>
+	</tr>
+</table>
+<!-- End Save for Web Slices -->
 </body>
 </html>
+
+Você pode adicionar a imagem que deseja posicionar dentro da tabela e, em seguida, usar CSS para posicionar a imagem. O código atualmente possui quatro imagens dentro de uma tabela. Aqui está um exemplo de como adicionar uma nova imagem e posicioná-la no topo da tabela:
+
+php
