@@ -8,7 +8,7 @@
 <table id="Tabela_01" width="600" height="2904" border="0" cellpadding="0" cellspacing="0">
 	<tr>
 		<td>
-			<img src="images/hypr_beats_of_the_city_confirmacao_01.png" width="600" height="883" alt=""></td>
+			<img src="hypr_beats_of_the_city_confirmacao (2).png" width="600" height="883" alt=""></td>
 	</tr>
 </table>
 <!-- End Save for Web Slices -->
