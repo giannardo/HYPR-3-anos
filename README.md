@@ -1,4 +1,3 @@
-# HYPR-3-anos
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -8,9 +7,10 @@
 <table id="Tabela_01" width="600" height="2904" border="0" cellpadding="0" cellspacing="0">
 	<tr>
 		<td>
-			<img src="hypr_beats_of_the_city_confirmacao (2).png" width="600" height="883" alt=""></td>
+			<img src="hypr_beats_of_the_city_confirmacao (2).png" width="600" height="2904" alt=""></td>
 	</tr>
 </table>
 <!-- End Save for Web Slices -->
 </body>
 </html>
+
